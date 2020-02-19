@@ -36,12 +36,16 @@
                             {{ partial "experience.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.projects.enable }}
-                            {{ partial "projects.html" . }}
+                            {{ if .Site.Params.publications.enable }}
+                            {{ partial "publications.html" . }}
                             {{ end }}
 
-                            {{ if .Site.Params.information.enable }}
-                            {{ partial "information.html" . }}
+                            {{ if .Site.Params.talks.enable }}
+                            {{ partial "talks.html" . }}
+                            {{ end }}
+
+                            {{ if .Site.Params.packages.enable }}
+                            {{ partial "packages.html" . }}
                             {{ end }}
 
                         </div><!--//resume-main-->

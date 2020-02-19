@@ -1,5 +1,7 @@
 - id: awards
   translation: Awards
+- id: fellowships
+  translation: Fellowships
 - id: education
   translation: Education
 - id: experiences
@@ -14,3 +16,9 @@
   translation: Projects
 - id: skills
   translation: Skills
+- id: talks
+  translation: Selected Talks
+- id: publications
+  translation: Selected Publications
+- id: packages
+  translation: Selected Open-Source Software
